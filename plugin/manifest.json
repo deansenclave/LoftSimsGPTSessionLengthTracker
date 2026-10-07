@@ -1,0 +1,1 @@
+{"manifest_version":3,"name":"LoftSims GPT Session Length Tracker Plugin","version":"0.2.0","description":"Observes customer-visible ChatGPT restriction messages for LoftSims evidence capture.","content_scripts":[{"matches":["https://chatgpt.com/*"],"js":["chatgpt-content-observer.js"],"run_at":"document_idle"}],"permissions":[]}
